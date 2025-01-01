@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 ---
 <!doctype html>
 <html lang="en">
@@ -13,6 +14,7 @@ import Header from '../components/Header'
 	<body>
 		<Header client:load/>
 		<slot />
+		<Footer/ client:load>
 	</body>
 </html>
 

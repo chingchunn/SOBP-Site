@@ -1,0 +1,37 @@
+---
+// Declarar los componentes
+import GalleryHero from '../../components/gallery/GalleryHero';
+import GalleryFilter from '../../components/gallery/GalleryFilter';
+import GalleryGrid from '../../components/gallery/GalleryGrid';
+import GalleryModal from '../../components/gallery/GalleryModal';
+import Layout from '../../layouts/Layout.astro';
+import { projects } from '../../components/gallery/types';
+
+// Manejo de estados
+let selectedImage: number | null = null;
+
+// Función para actualizar `selectedImage`
+const setSelectedImage = (id: number | null) => {
+  selectedImage = id;
+};
+---
+<Layout>
+  <section class="py-24 bg-eco-light">
+    <div class="container mx-auto px-4">
+      <!-- Usar cliente para manejar estado -->
+      <GalleryHero client:load />
+      <GalleryFilter projects={projects} client:load />
+      <GalleryGrid 
+        projects={projects} 
+        onProjectClick={setSelectedImage} 
+        client:load 
+      />
+      <GalleryModal 
+        projects={projects} 
+        selectedImage={selectedImage} 
+        setSelectedImage={setSelectedImage} 
+        client:load 
+      />
+    </div>
+  </section>
+</Layout>

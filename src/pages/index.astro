@@ -2,9 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/home/Hero'
 import Values from '../components/about/Values'
+import Gallery from '../components/gallery/Gallery'
 import ProductShowcase from '../components/home/ProductShowcase'
 import HeroCarousel from '../components/home/HeroCarousel'
 import ProductsAndServices from '../components/services/ProductsAndServices'
+import Testimonials from '../components/testimonials/Testimonials'
+import FAQ from '../components/faq/FAQ'
+import Contact from '../components/contact/Contact'
 
 ---
 
@@ -15,7 +19,11 @@ import ProductsAndServices from '../components/services/ProductsAndServices'
 			<!-- <Hero client:load/> -->
 			<Values client:load/>
 			<ProductShowcase client:load/>
+			<Gallery client:load/>
 			<ProductsAndServices client:load/>
+			<Testimonials client:load/>
+			<Contact client:load/>
+			<FAQ client:load/>
 		</main>
 	</div>
 </Layout>

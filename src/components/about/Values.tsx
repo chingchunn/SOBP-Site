@@ -51,9 +51,9 @@ const Values = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="p-8 text-center bg-white/80 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-eco-primary/10 mb-6">
-                  <value.icon className="w-8 h-8 text-eco-primary" />
+              <Card className="p-8 text-center bg-white/80 backdrop-blur-sm hover:shadow-lg transition-all duration-300 ">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-eco-primary/10 mb-6 hover:bg-eco-primary/20">
+                  <value.icon className="w-8 h-8 text-eco-text transition-transform ease-in-out hover:rotate-180" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-eco-text">
                   {value.title}

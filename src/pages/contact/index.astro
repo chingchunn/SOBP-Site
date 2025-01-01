@@ -1,0 +1,24 @@
+---
+import ContactHero from "../../components/contact/ContactHero";
+import ContactForm from "../../components/contact/ContactForm";
+import ContactInfo from "../../components/contact/ContactInfo";
+import ContactMap from "../../components/contact/ContactMap";
+import ContactFAQs from "../../components/contact/ContactFAQs";
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout>
+    <section class="py-20 bg-eco-light relative overflow-hidden">
+        <div class="container mx-auto px-4">
+          <ContactHero client:load/>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <ContactForm />
+            <div class="space-y-6">
+              <ContactInfo client:load/>
+              <ContactFAQs client:load/>
+            </div>
+          </div>
+          <ContactMap client:load/>
+        </div>
+      </section>
+</Layout>

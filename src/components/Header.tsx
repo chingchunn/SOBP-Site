@@ -56,7 +56,7 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="hidden md:flex items-center space-x-8"
           >
-            {["Home", "About Us", "Products & Services", "Portfolio", "Contact Us"].map(
+            {["Home", "About", "Services", "Gallery", "Contact"].map(
               (item, index) => (
                 <a
                   key={item}
@@ -74,22 +74,22 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex items-center space-x-4"
           >
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               onClick={handleThemeToggle}
               className="rounded-full"
             >
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-            </Button>
-            <Button
+            </Button> */}
+            {/* <Button
               variant="ghost"
               size="icon"
               onClick={handleLanguageToggle}
               className="rounded-full"
             >
               <Globe className="h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button
               variant="default"
               className="bg-eco-primary hover:bg-eco-primary/90 text-white"

@@ -1,0 +1,18 @@
+---
+import ServicesHero from "../../components/services/ServicesHero";
+import ServicesList from "../../components/services/ServicesList";
+import ServicesPricing from "../../components/services/ServicesPricing";
+import ServicesProcess from "../../components/services/ServicesProcess";
+import ServicesCTA from "../../components/services/ServicesCTA";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout>
+    <div class="min-h-screen">
+        <ServicesHero  client:load/>
+        <ServicesList  client:load/>
+        <ServicesProcess  client:load/>
+        <ServicesPricing  client:load/>
+        <ServicesCTA client:load />
+      </div>
+</Layout>
