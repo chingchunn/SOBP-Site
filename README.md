@@ -1,48 +1,50 @@
-# Astro Starter Kit: Basics
+# **EcoSphere Solutions Website** 🌍
 
-```sh
-npm create astro@latest -- --template basics
-```
+EcoSphere Solutions is a fictional eco-friendly company specializing in sustainable solutions. This repository contains the codebase for the website, which showcases modern web development practices using Astro, React, TypeScript, and Tailwind CSS.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## **Live Preview**
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Visit the site: [EcoSphere Solutions](https://ecospheresolutions.netlify.app)
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## **Screenshots**
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Home Page  
+![Home Page](https://i.ibb.co/SKTkvdn/home.png)
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### Core Values Section  
+![Core Values](https://i.ibb.co/WGTTSTD/valores.png)
 
-## 🧞 Commands
+### Gallery Section  
+![Gallery](https://i.ibb.co/8xgbmr2/gallery.png)
 
-All commands are run from the root of the project, from a terminal:
+### Testimonials Section  
+![Testimonials](https://i.ibb.co/QXvq3SD/testimonial.png)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+## **Features**
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Modern Design:** Tailwind CSS ensures responsive and stylish layouts.
+- **Interactive Components:** Framer Motion adds smooth animations for an engaging user experience.
+- **Optimized Performance:** Built with Astro for fast load times.
+- **Gallery:** Displays successful projects using Swiper.js.
+- **Testimonials:** User feedback presented in an animated slider.
+- **FAQ Section:** Accordion-style layout for easy navigation.
+- **404 Page:** Creative error page with animations.
+- **Multi-Language Support:** Built-in support for English and Spanish.
+
+---
+
+## **Technologies Used**
+
+- **Astro:** Static site generator.
+- **React with TypeScript:** Component-based development with type safety.
+- **Tailwind CSS:** Utility-first CSS framework.
+- **Framer Motion:** Animation library for smooth transitions.
+- **Swiper.js:** Carousel and slider integration.
+
+---
