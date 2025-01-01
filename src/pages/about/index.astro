@@ -1,8 +1,10 @@
 ---
 import AboutSection from '../../components/about/AboutSection'
 import Layout from '../../layouts/Layout.astro'
+import {ScrollToTop} from '../../components/ScrollToTop'
 ---
 
 <Layout>
     <AboutSection client:load/>
+    <ScrollToTop client:load/>
 </Layout>

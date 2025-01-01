@@ -5,6 +5,7 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import ContactMap from "../../components/contact/ContactMap";
 import ContactFAQs from "../../components/contact/ContactFAQs";
 import Layout from '../../layouts/Layout.astro'
+import {ScrollToTop} from '../../components/ScrollToTop'
 ---
 
 <Layout>
@@ -20,5 +21,6 @@ import Layout from '../../layouts/Layout.astro'
           </div>
           <ContactMap client:load/>
         </div>
+        <ScrollToTop client:load/>
       </section>
 </Layout>
