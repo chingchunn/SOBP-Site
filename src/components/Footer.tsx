@@ -60,7 +60,7 @@ const Footer = () => {
                 className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
               >
                 <MapPin size={18} />
-                123 Eco Street, Green City
+                123 Eco Street, Managua, Nicaragua.
               </a>
             </div>
           </motion.div>
@@ -74,11 +74,11 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { text: "Home", path: "/" },
-                { text: "About Us", path: "/about-us" },
-                { text: "Products & Services", path: "/products-and-services" },
-                { text: "Contact Us", path: "/contact-us" },
-                { text: "Privacy Policy", path: "/privacy-policy" },
-                { text: "Terms & Conditions", path: "/terms-and-conditions" },
+                { text: "About Us", path: "/about" },
+                { text: "Products & Services", path: "/services" },
+                { text: "Contact Us", path: "/contact" },
+                { text: "Privacy Policy", path: "/privacy" },
+                { text: "Terms & Conditions", path: "/term" },
               ].map((link) => (
                 <li key={link.text}>
                   <a
@@ -102,9 +102,9 @@ const Footer = () => {
               <Input
                 type="email"
                 placeholder="Enter your email"
-                className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
-                required
-              />
+                className="bg-white/10 border-white/20 text-white placeholder:text-gray-400" label={""} value={""} onChange={function (e: React.ChangeEvent<HTMLInputElement>): void {
+                  throw new Error("Function not implemented.");
+                } }              />
               <Button
                 type="submit"
                 className="w-full bg-eco-primary hover:bg-eco-primary/90"

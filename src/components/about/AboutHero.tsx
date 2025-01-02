@@ -1,13 +1,10 @@
 import { motion } from "framer-motion";
-import Mission from "../../components/about/Mission";
-import Team from "../../components/about/Team";
-import History from "../../components/about/History";
 
 const About = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-eco-primary/20 to-eco-secondary/20">
+      <section className="w-full py-20 bg-gradient-to-br from-eco-primary/20 to-eco-secondary/20">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -25,15 +22,6 @@ const About = () => {
           </motion.div>
         </div>
       </section>
-
-      {/* Mission Section */}
-      <Mission />
-
-      {/* Team Section */}
-      <Team />
-
-      {/* History Section */}
-      <History />
     </div>
   );
 };

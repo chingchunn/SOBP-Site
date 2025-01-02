@@ -45,7 +45,7 @@ const History = () => {
           {milestones.map((milestone, index) => (
             <motion.div
               key={milestone.year}
-              initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+              initial={{ opacity: 0, x: index % 2 === 0 ? -10 : 10 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="flex flex-col md:flex-row items-center gap-6 mb-12 last:mb-0"
