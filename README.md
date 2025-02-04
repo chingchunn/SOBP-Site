@@ -4,26 +4,8 @@ EcoSphere Solutions is a fictional eco-friendly company specializing in sustaina
 
 ---
 
-## **Live Preview**
-
-Visit the site: [EcoSphere Solutions](https://ecospheresolutions.netlify.app)
-
----
-
-## **Screenshots**
-
-### Home Page  
-![Home Page](https://i.ibb.co/SKTkvdn/home.png)
-
-### Core Values Section  
-![Core Values](https://i.ibb.co/WGTTSTD/valores.png)
-
-### Gallery Section  
-![Gallery](https://i.ibb.co/8xgbmr2/gallery.png)
-
-### Testimonials Section  
-![Testimonials](https://i.ibb.co/QXvq3SD/testimonial.png)
-
+## 🔗 Live Demo  
+🚀 **[ecospheresolutions] (https://ecospheresolutions.netlify.app/)**  
 ---
 
 ## **Features**
