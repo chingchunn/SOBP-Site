@@ -25,7 +25,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <a href="/" className="text-2xl font-bold mb-4 block">
-              EcoSphere Solutions
+              SOBP
             </a>
             <p className="text-gray-300 mb-6">
               Leading the way in sustainable solutions for a greener tomorrow.
@@ -74,11 +74,11 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { text: "Home", path: "/" },
-                { text: "About Us", path: "/about" },
-                { text: "Products & Services", path: "/services" },
-                { text: "Contact Us", path: "/contact" },
-                { text: "Privacy Policy", path: "/privacy" },
-                { text: "Terms & Conditions", path: "/term" },
+                { text: "About Us", path: "/" },
+                { text: "Products & Services", path: "/" },
+                { text: "Contact Us", path: "/" },
+                { text: "Privacy Policy", path: "/" },
+                { text: "Terms & Conditions", path: "/" },
               ].map((link) => (
                 <li key={link.text}>
                   <a

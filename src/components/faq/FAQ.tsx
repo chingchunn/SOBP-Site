@@ -8,41 +8,41 @@ import {
   AccordionTrigger,
 } from "../ui/accordion";
 
-const faqs = [
-  {
-    id: "solar",
-    question: "How do solar panels work?",
-    answer: "Solar panels convert sunlight into electricity through photovoltaic cells. These cells absorb solar energy and create an electric current, which is then converted into usable power for your home or business.",
-    category: "Products"
-  },
-  {
-    id: "cost",
-    question: "What is the cost of installation?",
-    answer: "Installation costs vary based on system size and complexity. We provide free consultations to assess your needs and provide detailed pricing. Most clients see a return on investment within 3-5 years through energy savings.",
-    category: "Pricing"
-  },
-  {
-    id: "timeline",
-    question: "How long does implementation take?",
-    answer: "Most installations are completed within 2-4 weeks from contract signing. This includes permit acquisition, installation, and final inspection. We'll provide you with a detailed timeline during consultation.",
-    category: "Services"
-  },
-  {
-    id: "maintenance",
-    question: "What maintenance is required?",
-    answer: "Solar panels require minimal maintenance. We recommend annual inspections and occasional cleaning to ensure optimal performance. Our maintenance packages provide peace of mind with regular check-ups.",
-    category: "Services"
-  }
-];
+// const faqs = [
+//   {
+//     id: "solar",
+//     question: "How do solar panels work?",
+//     answer: "Solar panels convert sunlight into electricity through photovoltaic cells. These cells absorb solar energy and create an electric current, which is then converted into usable power for your home or business.",
+//     category: "Products"
+//   },
+//   {
+//     id: "cost",
+//     question: "What is the cost of installation?",
+//     answer: "Installation costs vary based on system size and complexity. We provide free consultations to assess your needs and provide detailed pricing. Most clients see a return on investment within 3-5 years through energy savings.",
+//     category: "Pricing"
+//   },
+//   {
+//     id: "timeline",
+//     question: "How long does implementation take?",
+//     answer: "Most installations are completed within 2-4 weeks from contract signing. This includes permit acquisition, installation, and final inspection. We'll provide you with a detailed timeline during consultation.",
+//     category: "Services"
+//   },
+//   {
+//     id: "maintenance",
+//     question: "What maintenance is required?",
+//     answer: "Solar panels require minimal maintenance. We recommend annual inspections and occasional cleaning to ensure optimal performance. Our maintenance packages provide peace of mind with regular check-ups.",
+//     category: "Services"
+//   }
+// ];
 
 const FAQ = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredFaqs = faqs.filter(
-    (faq) =>
-      faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      faq.answer.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // const filteredFaqs = faqs.filter(
+  //   (faq) =>
+  //     faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+  //     faq.answer.toLowerCase().includes(searchQuery.toLowerCase())
+  // );
 
   return (
     <section className="py-16 bg-eco-light relative overflow-hidden">
@@ -87,7 +87,7 @@ const FAQ = () => {
         >
           <Accordion type="single" collapsible>
             <AnimatePresence>
-              {filteredFaqs.map((faq) => (
+              {/* {filteredFaqs.map((faq) => (
                 <AccordionItem key={faq.id} value={faq.id}>
                   <AccordionTrigger className="hover:no-underline">
                     <div className="flex items-center text-left">
@@ -106,7 +106,7 @@ const FAQ = () => {
                     </motion.div>
                   </AccordionContent>
                 </AccordionItem>
-              ))}
+              ))} */}
             </AnimatePresence>
           </Accordion>
         </motion.div>

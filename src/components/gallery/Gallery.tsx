@@ -7,51 +7,51 @@ const projects = [
   {
     id: 1,
     category: 'solar',
-    title: 'Instalación Solar Residencial',
+    title: 'Bioplastic Food Packaging',
     description: 'Sistema fotovoltaico de 5kW para vivienda unifamiliar',
-    image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276'
+    image: 'https://takeawaypackaging.co.uk/wp-content/uploads/2022/09/Cold-Food-Containers.webp'
   },
   {
     id: 2,
     category: 'water',
-    title: 'Sistema de Captación Pluvial',
+    title: 'Bioplastic Cosmetics Containers',
     description: 'Recolección y filtración de agua de lluvia para uso doméstico',
-    image: 'https://images.unsplash.com/photo-1468421870903-4df1664ac249'
+    image: 'https://cosmeticsbusiness.com/article-image-alias/introducing-idealpak-s-bioplastic-product-sugarcane-packaging-2.jpg'
   },
   {
     id: 3,
     category: 'recycling',
-    title: 'Centro de Reciclaje Automatizado',
+    title: 'Bioplastic E-commerce Packaging',
     description: 'Implementación de sistema de clasificación inteligente',
-    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b'
+    image: 'https://www.futuremarketinsights.com/public/assets/images/category/cat-195.jpg'
   },
   {
     id: 4,
     category: 'solar',
-    title: 'Parque Solar Comercial',
+    title: 'Bioplastic Food Packaging',
     description: 'Instalación de 50kW para centro comercial',
-    image: 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFBhcnF1ZSUyMFNvbGFyJTIwQ29tZXJjaWFsfGVufDB8fDB8fHww'
+    image: 'https://www.thechemicalengineer.com/media/14825/plastic-veg.jpg?width=960'
   },
   {
     id: 5,
     category: 'water',
-    title: 'Tratamiento de Aguas Grises',
+    title: 'Newly Developed Transparent Bio Plastic as an Alternative to Aluminium for Aerosols',
     description: 'Sistema de purificación y reutilización',
-    image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716'
+    image: 'https://www.cosmeticsdesign-europe.com/resizer/v2/MSPMFMOEV5LRBM67L5GOUBCIVM.jpg?auth=81c589bc6eb7892baad0ddd4b2ed153db2c0854b7f2321f4084b12f538cb4029&smart=true'
   },
   {
     id: 6,
     category: 'recycling',
-    title: 'Planta de Compostaje',
+    title: 'Bioplastic is Not Plastic-Free',
     description: 'Procesamiento de residuos orgánicos a gran escala',
-    image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09'
+    image: 'https://i.shgcdn.com/ef66c811-ddaf-4da8-a1de-75e6a77a4a47/-/format/auto/-/quality/normal/'
   },
 ];
 const categories = [
-  { id: 'all', label: 'Todos los Proyectos' },
-  { id: 'solar', label: 'Energía Solar' },
-  { id: 'water', label: 'Gestión del Agua' },
-  { id: 'recycling', label: 'Reciclaje' },
+  { id: 'all', label: 'All' },
+  { id: 'solar', label: 'Food Packaging' },
+  { id: 'water', label: 'Comestics Containers' },
+  { id: 'recycling', label: 'Disposable Cutlery and Cups' },
 ];
 
 const Gallery = () => {
@@ -73,7 +73,7 @@ const Gallery = () => {
             Nuestros Proyectos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            Galería de Soluciones Sostenibles
+            Where Our Plastic Comes to Life
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
             Explora nuestra colección de proyectos exitosos en energía solar, gestión del agua y reciclaje

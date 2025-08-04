@@ -14,20 +14,20 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 
-const faqs = [
-  {
-    question: "¿Cómo reservo una excursión?",
-    answer: "Puedes reservar a través de nuestro formulario de contacto o llamándonos directamente. Te responderemos en menos de 24 horas con toda la información necesaria."
-  },
-  {
-    question: "¿Qué incluyen los programas?",
-    answer: "Nuestros programas incluyen guía especializado, equipo necesario, seguro de actividades y, en algunos casos, transporte y alimentación. Los detalles específicos varían según el programa seleccionado."
-  },
-  {
-    question: "¿Tienen programas para principiantes?",
-    answer: "¡Sí! Ofrecemos programas para todos los niveles de experiencia, desde principiantes hasta expertos. Nuestros guías adaptarán la actividad a tu nivel."
-  }
-];
+// const faqs = [
+//   {
+//     question: "¿Cómo reservo una excursión?",
+//     answer: "Puedes reservar a través de nuestro formulario de contacto o llamándonos directamente. Te responderemos en menos de 24 horas con toda la información necesaria."
+//   },
+//   {
+//     question: "¿Qué incluyen los programas?",
+//     answer: "Nuestros programas incluyen guía especializado, equipo necesario, seguro de actividades y, en algunos casos, transporte y alimentación. Los detalles específicos varían según el programa seleccionado."
+//   },
+//   {
+//     question: "¿Tienen programas para principiantes?",
+//     answer: "¡Sí! Ofrecemos programas para todos los niveles de experiencia, desde principiantes hasta expertos. Nuestros guías adaptarán la actividad a tu nivel."
+//   }
+// ];
 
 const Contact = () => {
   const { toast } = useToast();
@@ -51,10 +51,10 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-eco-text mb-4">
-            Contáctanos
+            Ready to Make a Change?
           </h2>
           <p className="text-eco-text/80 text-lg max-w-2xl mx-auto">
-            Estamos aquí para ayudarte a planificar tu próxima aventura
+            Contact Us Now!
           </p>
         </motion.div>
 
@@ -153,7 +153,7 @@ const Contact = () => {
 
             {/* FAQs */}
             <div className="space-y-4">
-              {faqs.map((faq, index) => (
+              {/* {faqs.map((faq, index) => (
                 <Dialog key={index}>
                   <DialogTrigger asChild>
                     <Card className="cursor-pointer hover:shadow-md transition-shadow">
@@ -172,7 +172,7 @@ const Contact = () => {
                     </DialogHeader>
                   </DialogContent>
                 </Dialog>
-              ))}
+              ))} */}
             </div>
           </motion.div>
         </div>

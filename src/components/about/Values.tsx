@@ -5,18 +5,18 @@ import { Leaf, Lightbulb, Users } from "lucide-react";
 const values = [
   {
     icon: Leaf,
-    title: "Sostenibilidad",
-    description: "Compromiso inquebrantable con el cuidado del medio ambiente",
+    title: "100% Biodegradable",
+    description: "Breaks down naturally in the environment without leaving harmful residue.",
   },
   {
     icon: Lightbulb,
-    title: "Innovación",
-    description: "Tecnología de vanguardia para soluciones más eficientes",
+    title: "Fully Recyclable",
+    description: "Can be collected, processed, and reused to make new products, reducing waste.",
   },
   {
     icon: Users,
-    title: "Comunidad",
-    description: "Impacto positivo en la sociedad a través de acciones sostenibles",
+    title: " Made from Plant-Based Materials",
+    description: "Sourced from renewable plants instead of petroleum, making it eco-friendly and sustainable.",
   },
 ];
 
@@ -32,13 +32,14 @@ const Values = () => {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1 mb-6 text-sm font-medium text-eco-primary bg-eco-primary/10 rounded-full">
-            Nuestros Valores
+            About the Product
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            Construyendo un futuro sostenible
+            What Makes Our Plastic Eco-Friendly?
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
-            Nuestros valores fundamentales guían cada decisión y acción que tomamos
+            Unlike traditional plastics that persist for hundreds of years, our bioplastic degrades
+naturally in soil and water — without harming ecosystems.
           </p>
         </motion.div>
 

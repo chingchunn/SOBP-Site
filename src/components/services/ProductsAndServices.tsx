@@ -6,35 +6,29 @@ import { Sun, Droplets, Recycle, LineChart, Wrench, ClipboardCheck } from "lucid
 const products = [
   {
     icon: Sun,
-    title: "Paneles Solares Personalizables",
-    description: "Sistemas fotovoltaicos de alta eficiencia adaptados a tus necesidades específicas.",
+    title: "“Every minute, one garbage truck of plastic is dumped into our oceans.",
   },
   {
     icon: Droplets,
-    title: "Sistemas de Recolección de Agua",
-    description: "Soluciones innovadoras para la captación y aprovechamiento de agua pluvial.",
+    title: "8M+ tons of plastic enter our oceans every year.",
   },
   {
     icon: Recycle,
-    title: "Reciclaje Inteligente",
-    description: "Compactadoras de residuos con tecnología avanzada para una gestión eficiente.",
+    title: "Only 9% of all plastic ever produced has been recycled.",
   },
 ];
 const services = [
   {
     icon: LineChart,
-    title: "Consultoría en Sostenibilidad",
-    description: "Asesoramiento experto para implementar prácticas ecológicas en tu empresa.",
+    title: "Plastic production is expected to double by 2040 if no action is taken.",
   },
   {
     icon: Wrench,
-    title: "Instalación Profesional",
-    description: "Servicio completo de instalación y mantenimiento de sistemas ecológicos.",
+    title: "By 2050, there could be more plastic than fish in the ocean by weight",
   },
   {
     icon: ClipboardCheck,
-    title: "Auditorías Ambientales",
-    description: "Evaluaciones detalladas para garantizar el cumplimiento de normas ambientales.",
+    title: "Microplastics have been found in 100% of tested human placentas, blood, and breast milk.",
   },
 ];
 const ProductsAndServices = () => {
@@ -61,10 +55,11 @@ const ProductsAndServices = () => {
             Nuestras Soluciones
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            Productos y Servicios
+            Why Switching to Eco-Plastic Matters
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
-            Descubre nuestras soluciones sostenibles diseñadas para maximizar la eficiencia y minimizar el impacto ambiental
+            If 30% of global packaging switches to biodegradable plastic, we could reduce plastic
+pollution by over 60%.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -75,7 +70,7 @@ const ProductsAndServices = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-eco-text mb-8">Productos Ecológicos</h3>
+            <h3 className="text-2xl font-bold text-eco-text mb-8">Statistics</h3>
             <div className="space-y-6">
               {products.map((product, index) => (
                 <motion.div
@@ -105,9 +100,6 @@ const ProductsAndServices = () => {
                           <h4 className="text-xl font-semibold mb-2 text-eco-text">
                             {product.title}
                           </h4>
-                          <p className="text-eco-text/80 mb-4">
-                            {product.description}
-                          </p>
                           <Button
                             variant="outline"
                             onClick={() => handleMoreInfo(product.title)}
@@ -130,7 +122,7 @@ const ProductsAndServices = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-eco-text mb-8">Servicios Profesionales</h3>
+            <h3 className="text-2xl font-bold text-eco-text mb-8">More Stats</h3>
             <div className="space-y-6">
               {services.map((service, index) => (
                 <motion.div
@@ -160,9 +152,6 @@ const ProductsAndServices = () => {
                           <h4 className="text-xl font-semibold mb-2 text-eco-text">
                             {service.title}
                           </h4>
-                          <p className="text-eco-text/80 mb-4">
-                            {service.description}
-                          </p>
                           <Button
                             variant="outline"
                             onClick={() => handleMoreInfo(service.title)}

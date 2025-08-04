@@ -45,7 +45,7 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-eco-primary mb-4">What Our Clients Say</h2>
+          <h2 className="text-4xl font-bold text-eco-primary mb-4">Trusted by Brands that Care</h2>
           <p className="text-eco-text/80">Discover how we've helped businesses achieve their sustainability goals</p>
         </motion.div>
 

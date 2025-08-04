@@ -8,20 +8,21 @@ import 'swiper/css/pagination';
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027',
-    title: 'Soluciones Naturales',
-    description: 'Comprometidos con el medio ambiente',
+    image: 'https://elion.co.in/wp-content/uploads/2023/09/singleuseplastic.jpg',
+    title: (
+      <>Plastic Reimagined. <br/> For a Greener Tomorrow.</>),
+    description: 'Our eco-friendly plastic is biodegradable, recyclable, and made for the future.',
   },
-  {
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
-    title: 'Energía Renovable',
-    description: 'Tecnología al servicio del planeta',
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b',
-    title: 'Futuro Sostenible',
-    description: 'Innovación para las próximas generaciones',
-  },
+  // {
+  //   image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
+  //   title: 'Energía Renovable',
+  //   description: 'Tecnología al servicio del planeta',
+  // },
+  // {
+  //   image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b',
+  //   title: 'Futuro Sostenible',
+  //   description: 'Innovación para las próximas generaciones',
+  // },
 ];
 
 const HeroCarousel = () => {
@@ -62,7 +63,7 @@ const HeroCarousel = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2 }}
-                        className="mb-4 text-3xl font-bold md:text-5xl"
+                        className="mb-4 text-4xl leading-snug font-bold md:text-6xl md:leading-tight"
                       >
                         {slide.title}
                       </motion.h2>
@@ -70,7 +71,7 @@ const HeroCarousel = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4 }}
-                        className="mb-8 text-lg md:text-xl"
+                        className="mb-8 text-xl leading-relaxed md:text-2xl md:leading-loose"
                       >
                         {slide.description}
                       </motion.p>
