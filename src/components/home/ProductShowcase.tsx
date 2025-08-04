@@ -22,7 +22,7 @@ const products = [
 
 const ProductShowcase = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id="works" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

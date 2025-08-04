@@ -22,7 +22,7 @@ const values = [
 
 const Values = () => {
   return (
-    <section className="py-24 bg-eco-light relative overflow-hidden">
+    <section id="about" className="py-24 bg-eco-light relative overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

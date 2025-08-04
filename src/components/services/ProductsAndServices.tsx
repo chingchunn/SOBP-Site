@@ -40,9 +40,9 @@ const ProductsAndServices = () => {
     });
   };
   return (
-    <section className="relative py-24 overflow-hidden">
+    <><html className="scroll-smooth"></html><section id="stats" className="relative py-24 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-eco-secondary/30 via-transparent to-transparent" />
-      
+
       <div className="container relative mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -59,7 +59,7 @@ const ProductsAndServices = () => {
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
             If 30% of global packaging switches to biodegradable plastic, we could reduce plastic
-pollution by over 60%.
+            pollution by over 60%.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -81,7 +81,7 @@ pollution by over 60%.
                   viewport={{ once: true }}
                 >
                   <motion.div
-                    whileHover={{ 
+                    whileHover={{
                       scale: 1.03,
                       boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
                     }}
@@ -133,7 +133,7 @@ pollution by over 60%.
                   viewport={{ once: true }}
                 >
                   <motion.div
-                    whileHover={{ 
+                    whileHover={{
                       scale: 1.03,
                       boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
                     }}
@@ -187,7 +187,7 @@ pollution by over 60%.
           </Button>
         </motion.div>
       </div>
-    </section>
+    </section></>
   );
 };
 export default ProductsAndServices;

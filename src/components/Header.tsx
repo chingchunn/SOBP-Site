@@ -68,15 +68,22 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="hidden md:flex items-center space-x-8"
           >
-            {["Home", "About", "Services", "Gallery", "Contact"].map((item) => (
-              <a
-                key={item}
-                href={item === "Home" ? "/" : `/${item.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}
-                className="text-eco-text hover:text-eco-primary transition-colors duration-300"
-              >
-                {item}
-              </a>
-            ))}
+            {[
+  { label: "Home", id: "home" },
+  { label: "About", id: "about" },
+  { label: "How it Works", id: "works" },
+  { label: "Stages", id: "stage" },
+  { label: "Stats", id: "stats" },
+].map(({ label, id }) => (
+  <a
+    key={id}
+    href={`#${id}`}
+    className="text-eco-text hover:text-eco-primary transition-colors duration-300"
+  >
+    {label}
+  </a>
+))}
+
           </motion.nav>
 
           {/* Mobile Navigation */}
@@ -121,16 +128,23 @@ const Header = () => {
           className="absolute top-16 left-0 right-0 bg-white shadow-md md:hidden"
         >
           <nav className="flex flex-col items-start space-y-4 p-4">
-            {["Home", "About", "Services", "Gallery", "Contact"].map((item) => (
-              <a
-                key={item}
-                href={item === "Home" ? "/" : `/${item.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}
-                className="text-eco-text hover:text-eco-primary transition-colors duration-300"
-                onClick={() => setMenuOpen(false)} // Close menu on click
-              >
-                {item}
-              </a>
-            ))}
+            {[
+  { label: "Home", id: "home" },
+  { label: "About", id: "about" },
+  { label: "Services", id: "services" },
+  { label: "Gallery", id: "gallery" },
+  { label: "Contact", id: "contact" },
+].map(({ label, id }) => (
+  <a
+    key={id}
+    href={`#${id}`}
+    className="text-eco-text hover:text-eco-primary transition-colors duration-300"
+    onClick={() => setMenuOpen(false)}
+  >
+    {label}
+  </a>
+))}
+
           </nav>
         </motion.div>
       )}
