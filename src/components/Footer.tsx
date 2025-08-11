@@ -25,7 +25,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <a href="/" className="text-2xl font-bold mb-4 block">
-              SOBP
+              ET Tech
             </a>
             <p className="text-gray-300 mb-6">
               Leading the way in sustainable solutions for a greener tomorrow.

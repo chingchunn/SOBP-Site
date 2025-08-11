@@ -73,7 +73,7 @@ const Gallery = () => {
             Nuestros Proyectos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            Where Our Plastic Comes to Life
+            Smart Tech Capabilities
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
             Explora nuestra colección de proyectos exitosos en energía solar, gestión del agua y reciclaje

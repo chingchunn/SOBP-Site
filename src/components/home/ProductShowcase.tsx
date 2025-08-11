@@ -5,18 +5,18 @@ import { ArrowRight, Sun, Droplets, Recycle } from "lucide-react";
 const products = [
   {
     icon: Sun,
-    title: "Extracting from Starch, Corn, or Algae",
-    description: "We start by sourcing natural, renewable materials like corn, starch, or algae. These plants are rich in sugars and carbohydrates, which are the building blocks for eco-friendly plastics.",
+    title: "Passion",
+    description: "We bring energy and commitment to everything we do. Passion fuels our drive to deliver outstanding results and go beyond expectations — not just for clients, but for the future of digital commerce.",
   },
   {
     icon: Droplets,
-    title: "Polymerization Process",
-    description: "Through a controlled chemical process, these natural sugars are converted into biopolymers — long chains of molecules that give the material strength and flexibility, just like traditional plastic.",
+    title: "Professional",
+    description: "We uphold high standards in communication, execution, and ethics. Being professional means delivering consistently, respecting deadlines, and building long-term relationships based on trust and reliability.",
   },
   {
     icon: Recycle,
-    title: "Biodegradation Process After Use",
-    description: "Once discarded, the bioplastic naturally breaks down in composting or soil environments. Microorganisms help decompose it into water, carbon dioxide, and organic matter — leaving no toxic residue behind.",
+    title: "Innovation",
+    description: "We don’t just keep up with trends — we set them. Innovation is about finding smarter, faster, and more impactful ways to solve problems using the latest technologies and creative thinking.",
   },
 ];
 
@@ -32,14 +32,13 @@ const ProductShowcase = () => {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1 mb-6 text-sm font-medium text-eco-primary bg-eco-primary/10 rounded-full">
-            How It Works
+            About Us
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            The Science Behind the Sustainability
+            At ET Tech, we turn digital challenges into smart commerce solutions.
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
-            Our eco-plastic starts with renewable resources like corn, starch, or algae. Through a clean polymerization process, we transform these into durable bioplastics — 
-            without relying on fossil fuels. After use, the material naturally breaks down, returning to the earth without leaving harmful waste.
+            We’re a forward-thinking company focused on driving digital transformation for brands worldwide. With a foundation built on passion, professionalism, innovation, and creativity — we help businesses thrive in a tech-driven future.
           </p>
         </motion.div>
 

@@ -1,22 +1,27 @@
 import { motion } from "framer-motion";
 import { Card } from "../ui/card";
-import { Leaf, Lightbulb, Users } from "lucide-react";
+import { Leaf, Lightbulb, Umbrella, Users } from "lucide-react";
 
 const values = [
   {
     icon: Leaf,
-    title: "100% Biodegradable",
-    description: "Breaks down naturally in the environment without leaving harmful residue.",
+    title: "Digital Strategy",
+    description: "Workflow Design (ERP, HR), Cross-Border Consulting",
   },
   {
     icon: Lightbulb,
-    title: "Fully Recyclable",
-    description: "Can be collected, processed, and reused to make new products, reducing waste.",
+    title: "Operations",
+    description: "eShop Dev, Logistics, Product QA, Analytics",
   },
   {
     icon: Users,
-    title: " Made from Plant-Based Materials",
-    description: "Sourced from renewable plants instead of petroleum, making it eco-friendly and sustainable.",
+    title: "Customer Experience",
+    description: "24/7 Support, Hotline, Satisfaction KPIs",
+  },
+  {
+    icon: Umbrella,
+    title: "Insights",
+    description: ": Forecasting, Price Reviews, Lifecycle & CSR Reporting",
   },
 ];
 
@@ -32,14 +37,13 @@ const Values = () => {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1 mb-6 text-sm font-medium text-eco-primary bg-eco-primary/10 rounded-full">
-            About the Product
+            Our Services
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-eco-text mb-6">
-            What Makes Our Plastic Eco-Friendly?
+            Empowering Digital Growth Through Smart Commerce
           </h2>
           <p className="text-lg text-eco-text/80 max-w-2xl mx-auto">
-            Unlike traditional plastics that persist for hundreds of years, our bioplastic degrades
-naturally in soil and water — without harming ecosystems.
+            ET Tech is a global smart commerce company passionate about digital transformation.
           </p>
         </motion.div>
 

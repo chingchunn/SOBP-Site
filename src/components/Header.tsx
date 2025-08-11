@@ -57,7 +57,7 @@ const Header = () => {
             className="flex items-center"
           >
             <a href="/" className="text-2xl font-bold text-eco-primary">
-              SOBP
+              ET Tech
             </a>
           </motion.div>
 

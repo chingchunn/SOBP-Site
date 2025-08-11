@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 
 const slides = [
   {
-    image: 'https://elion.co.in/wp-content/uploads/2023/09/singleuseplastic.jpg',
+    image: 'https://www.shutterstock.com/image-photo/digital-brain-circuit-ai-cocept-600nw-2498421665.jpg',
     title: (
-      <>Plastic Reimagined. <br/> For a Greener Tomorrow.</>),
-    description: 'Our eco-friendly plastic is biodegradable, recyclable, and made for the future.',
+      <>Digital Transformation, <br></br>Reimagined</>),
+    description: 'Smart, scalable, and cross-border e-Techmerce solutions tailored to your business.',
   },
   // {
   //   image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
